@@ -5,68 +5,68 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Shouldly;
 using ThemeUnitTesting.Library;
 
 namespace ThemeUnitTesting
 {
-    class xxxTddTests
+    [TestClass]
+    public class SalaryCalculatorUnitTests
     {
-        xxxUnit instance;
+        SalaryCalculatorUnit instance;
 
         [TestInitialize]
         public void TestInitialize()
         {
-            instance = new xxxUnit();
+            instance = new SalaryCalculatorUnit();
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException), "Must by exception for negative base salary.")]
-        public void BaseSalarySmallerThanZeroTdd()
+        public void BaseSalarySmallerThanZeroTest()
         {
             int result = instance.CalcSalary(-2000, 10, 3);
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException), "Must by exception for negative base contract.")]
-        public void BaseContractSmallerThanZeroTdd()
+        public void BaseCoeffSmallerThanZeroTest()
         {
             int result = instance.CalcSalary(2000, -10, 3);
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException), "Must by exception for negative level.")]
-        public void LevelSmallerThanZeroTdd()
+        public void LevelSmallerThanZeroTest()
         {
             int result = instance.CalcSalary(2000, 10, -3);
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException), "Must by exception for very big level.")]
-        public void LevelBiggerThanSixTdd()
+        public void LevelBiggerThanSixTest()
         {
             int result = instance.CalcSalary(2000, 10, 8);
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException), "Must by exception for very big base salary.")]
-        public void BaseSalaryVeryBigTdd()
+        public void BaseSalaryVeryBigTest()
         {
             int result = instance.CalcSalary(60000, 10, 1);
         }
 
         [TestMethod]
-        public void CorrectValueTdd()
+        public void CorrectValueTest()
         {
             int result = instance.CalcSalary(2000, 10, 1);
-            result.ShouldBe<int>(20000, "Must be correct result 20000.");
+            Assert.AreEqual(20000, result, "Must be correct result 20000.");
         }
 
         [TestMethod]
-        public void CorrectValueLevelThreeTdd()
+        public void CorrectValueLevelThreeTest()
         {
             int result = instance.CalcSalary(2000, 10, 3);
-            result.ShouldBe<int>(11000000, "Must be correct result 11000000.");
+            Assert.AreEqual(11000000, result, "Must be correct result 11000000.");
         }
     }
 }
