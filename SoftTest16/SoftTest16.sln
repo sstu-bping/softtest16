@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemeUnitTesting", "ThemeUn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemeUnitTesting.Library", "ThemeUnitTesting.Library\ThemeUnitTesting.Library.csproj", "{CFD6D04E-AF7A-45DC-B6CC-0FD1DAAE4D9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Run", "Run\Run.csproj", "{9EE18FED-021B-4E45-BD0C-EC65A24D3B3C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{CFD6D04E-AF7A-45DC-B6CC-0FD1DAAE4D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFD6D04E-AF7A-45DC-B6CC-0FD1DAAE4D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFD6D04E-AF7A-45DC-B6CC-0FD1DAAE4D9A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9EE18FED-021B-4E45-BD0C-EC65A24D3B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9EE18FED-021B-4E45-BD0C-EC65A24D3B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9EE18FED-021B-4E45-BD0C-EC65A24D3B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9EE18FED-021B-4E45-BD0C-EC65A24D3B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
