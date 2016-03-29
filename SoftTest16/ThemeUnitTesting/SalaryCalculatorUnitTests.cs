@@ -50,7 +50,7 @@ namespace ThemeUnitTesting
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException), "Must by exception for very big base salary.")]
-        public void BaseSalaryVeryBigTest()
+        public void BaseSalaryBiggerThan50000xlevelTest()
         {
             int result = instance.CalcSalary(60000, 10, 1);
         }

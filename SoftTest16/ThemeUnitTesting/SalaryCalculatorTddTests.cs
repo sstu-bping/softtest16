@@ -22,13 +22,6 @@ namespace ThemeUnitTesting
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Must by exception for zero level.")]
-        public void CorrectResultZeroLevelTdd()
-        {
-            int result = instance.CalcSalary(2000, 10, 0);
-        }
-
-        [TestMethod]
         public void CorrectResultFirstLevelTdd()
         {
             int result = instance.CalcSalary(2000, 10, 1);
