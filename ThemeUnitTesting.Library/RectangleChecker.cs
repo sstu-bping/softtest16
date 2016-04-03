@@ -14,7 +14,7 @@ namespace ThemeUnitTesting.Library
             {
                 throw new ArgumentException();
             }
-            if ( firstSide == 0 || secondSide == 0 || angle == 0 || angle == 180 || angle == 360)
+            if ( firstSide == 0 || secondSide == 0  || angle == 0 || angle == 180 || angle == 360)
             {
                 return "вырожденный";
             }
