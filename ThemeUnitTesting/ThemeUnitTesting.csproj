@@ -59,11 +59,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="MathPowTests.cs" />
-    <Compile Include="NumberValidatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StringAddCalculatorUnitTests.cs" />
-    <Compile Include="StringAddCalculatorTddTests.cs" />
+    <Compile Include="RectangleChackerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
