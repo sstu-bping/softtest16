@@ -44,8 +44,18 @@
     <Compile Include="MathPow.cs" />
     <Compile Include="NumberValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="StringAddCalculatorUnit.cs" />
     <Compile Include="StringAddCalculatorTdd.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="SalaryCalculatorTdd.cs" />
+    <Compile Include="SalaryCalculatorUnit.cs" />
+=======
+    <Compile Include="StringAddCalculatorUnit.cs" />
+    <Compile Include="StringAddCalculatorTdd.cs" />
+>>>>>>> aa54ff8f94cc62464f4b5dd64922acc80267ae3b
+>>>>>>> afrolov
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

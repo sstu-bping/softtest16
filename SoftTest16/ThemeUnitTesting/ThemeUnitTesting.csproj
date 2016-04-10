@@ -62,8 +62,18 @@
     <Compile Include="MathPowTests.cs" />
     <Compile Include="NumberValidatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="StringAddCalculatorUnitTests.cs" />
     <Compile Include="StringAddCalculatorTddTests.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="SalaryCalculatorTddTests.cs" />
+    <Compile Include="SalaryCalculatorUnitTests.cs" />
+=======
+    <Compile Include="StringAddCalculatorUnitTests.cs" />
+    <Compile Include="StringAddCalculatorTddTests.cs" />
+>>>>>>> aa54ff8f94cc62464f4b5dd64922acc80267ae3b
+>>>>>>> afrolov
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

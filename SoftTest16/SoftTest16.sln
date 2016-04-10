@@ -1,7 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< HEAD
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
+=======
+<<<<<<< HEAD
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+=======
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+>>>>>>> aa54ff8f94cc62464f4b5dd64922acc80267ae3b
+>>>>>>> afrolov
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemeUnitTesting", "ThemeUnitTesting\ThemeUnitTesting.csproj", "{E84C96EF-07C9-4243-AF7E-4FB2F7AC7A0F}"
 EndProject
