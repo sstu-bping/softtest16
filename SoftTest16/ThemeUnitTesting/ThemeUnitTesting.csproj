@@ -62,7 +62,6 @@
     <Compile Include="MathPowTests.cs" />
     <Compile Include="NumberValidatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TriangleChacker.cs" />
     <Compile Include="TriangleCheckerTests.cs" />
   </ItemGroup>
   <ItemGroup>
