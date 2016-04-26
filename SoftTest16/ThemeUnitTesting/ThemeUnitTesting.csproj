@@ -66,8 +66,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringAddCalculatorUnitTests.cs" />
     <Compile Include="StringAddCalculatorTddTests.cs" />
-    <Compile Include="SalaryCalculatorUnitTests.cs" />
-    <Compile Include="SalaryCalculatorTddTests.cs" />
+    <Compile Include="ValZorSalaryCalculatorUnitTests.cs" />
+    <Compile Include="ValZorSalaryCalculatorTddTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
